@@ -40,6 +40,8 @@ Deep Learning model performs at an accuracy of ~80% and is the best performing m
 ### Model Application
 
 The model was used on a few matches contested by FC Barcelona , The following pass hardness distributions were obtained :
+- X-axis : 0 to 10, pass hardness increases from 0 to 10.
+- Y-axis : No. of passes of that particular difficulty.
 
 [FCB VS ALMERIA](https://github.com/Dinesh-Adhithya-H/sports-analytics/blob/master/fcb%20vs%20almeria.png)
 [FCB VS BILBAO](https://github.com/Dinesh-Adhithya-H/sports-analytics/blob/master/fcb%20vs%20bilbao.png)
