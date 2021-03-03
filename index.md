@@ -1,7 +1,9 @@
 # Welcome !!
 
 We hope you find our work enjoyable and interesting , where our current interest lies on  using  Machine Learning techniques to model sports data.
-Check out our project [GitHub Account](https://github.com/Dinesh-Adhithya-H) .
+Check out our project [GitHub Account](https://github.com/Dinesh-Adhithya-H/Machine-learning-in-Football) .
+
+Contributors: Dinesh Adhithya and Sachin Mishra
 
 ## Modelling pass difficulty in football matches using Machine Learning.
 
@@ -15,6 +17,7 @@ We have 861714 datapoints in our dataset ,  we need to make sure our training da
 ### Data Exploration
 
 [pass outcome distribution of our dataset](https://github.com/Dinesh-Adhithya-H/sports-analytics/blob/master/pass_distribution.png)
+
 [pass dataset](https://github.com/Dinesh-Adhithya-H/sports-analytics/blob/master/passes_exploration.png)
 
 
@@ -38,9 +41,9 @@ Deep Learning model performs at an accuracy of ~80% and is the best performing m
 
 The model was used on a few matches contested by FC Barcelona , The following pass hardness distributions were obtained :
 
-[FCB VS ALMERIA](https://github.com/Dinesh-Adhithya-H/sports-analytics/blob/master/fcb%20vs%20almeria.png)
-[FCB VS BILBAO](https://github.com/Dinesh-Adhithya-H/sports-analytics/blob/master/fcb%20vs%20bilbao.png)
-[FCB VS ESPANYOL](https://github.com/Dinesh-Adhithya-H/sports-analytics/blob/master/fcb%20vs%20espanyol.png)
+![FCB VS ALMERIA](https://github.com/Dinesh-Adhithya-H/sports-analytics/blob/master/fcb%20vs%20almeria.png)
+![FCB VS BILBAO](https://github.com/Dinesh-Adhithya-H/sports-analytics/blob/master/fcb%20vs%20bilbao.png)
+![FCB VS ESPANYOL](https://github.com/Dinesh-Adhithya-H/sports-analytics/blob/master/fcb%20vs%20espanyol.png)
 [FCB VS GRANADA](https://github.com/Dinesh-Adhithya-H/sports-analytics/blob/master/fcb%20vs%20granada.png)
 [FCB VS OSASUNA](https://github.com/Dinesh-Adhithya-H/sports-analytics/blob/master/fcb%20vs%20osasuna.png)
 [FCB VS REAL BETIS](https://github.com/Dinesh-Adhithya-H/sports-analytics/blob/master/fcb%20vs%20real%20betis.png)
