@@ -48,6 +48,7 @@ The model was used on a few matches contested by FC Barcelona , The following pa
 [FCB VS OSASUNA](https://github.com/Dinesh-Adhithya-H/sports-analytics/blob/master/fcb%20vs%20osasuna.png)
 [FCB VS REAL BETIS](https://github.com/Dinesh-Adhithya-H/sports-analytics/blob/master/fcb%20vs%20real%20betis.png)
 [FCB VS VILLAREAL](https://github.com/Dinesh-Adhithya-H/sports-analytics/blob/master/fcb%20vs%20villareal.png)
+![cat]("https://upload.wikimedia.org/wikipedia/commons/e/e9/Felis_silvestris_silvestris_small_gradual_decrease_of_quality.png)
 
 ### Observations
 
