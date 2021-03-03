@@ -41,14 +41,13 @@ Deep Learning model performs at an accuracy of ~80% and is the best performing m
 
 The model was used on a few matches contested by FC Barcelona , The following pass hardness distributions were obtained :
 
-![FCB VS ALMERIA](https://github.com/Dinesh-Adhithya-H/sports-analytics/blob/master/fcb%20vs%20almeria.png)
-![FCB VS BILBAO](https://github.com/Dinesh-Adhithya-H/sports-analytics/blob/master/fcb%20vs%20bilbao.png)
-![FCB VS ESPANYOL](https://github.com/Dinesh-Adhithya-H/sports-analytics/blob/master/fcb%20vs%20espanyol.png)
+[FCB VS ALMERIA](https://github.com/Dinesh-Adhithya-H/sports-analytics/blob/master/fcb%20vs%20almeria.png)
+[FCB VS BILBAO](https://github.com/Dinesh-Adhithya-H/sports-analytics/blob/master/fcb%20vs%20bilbao.png)
+[FCB VS ESPANYOL](https://github.com/Dinesh-Adhithya-H/sports-analytics/blob/master/fcb%20vs%20espanyol.png)
 [FCB VS GRANADA](https://github.com/Dinesh-Adhithya-H/sports-analytics/blob/master/fcb%20vs%20granada.png)
 [FCB VS OSASUNA](https://github.com/Dinesh-Adhithya-H/sports-analytics/blob/master/fcb%20vs%20osasuna.png)
 [FCB VS REAL BETIS](https://github.com/Dinesh-Adhithya-H/sports-analytics/blob/master/fcb%20vs%20real%20betis.png)
 [FCB VS VILLAREAL](https://github.com/Dinesh-Adhithya-H/sports-analytics/blob/master/fcb%20vs%20villareal.png)
-![cat]("https://upload.wikimedia.org/wikipedia/commons/e/e9/Felis_silvestris_silvestris_small_gradual_decrease_of_quality.png)
 
 ### Observations
 
