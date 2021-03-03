@@ -1,17 +1,19 @@
 # Welcome !!
 
 We hope you find our work enjoyable and interesting , where our current interest lies on  using  Machine Learning techniques to model sports data.
-Check out our project [GitHub Account](https://github.com/Dinesh-Adhithya-H/Machine-learning-in-Football) .
+Check out our [project](https://github.com/Dinesh-Adhithya-H/Machine-learning-in-Football) .
 
-Contributors: Dinesh Adhithya and Sachin Mishra
+Contributors: [Dinesh Adhithya](https://github.com/Dinesh-Adhithya-H) and [Sachin Mishra](https://github.com/nihcaSInParis)
+
+If you wish to reach out to us : [Dinesh Adhithya]("hdinesh18@iiserb.ac.in") and [Sachin Mishra](sachin18@iiserb.ac.in)
 
 ## Modelling pass difficulty in football matches using Machine Learning.
 
 
 ### Data Extraction and parsing
 
-We use Statsbomb event data available at the [github repository](https://github.com/statsbomb/open-data) and collect the passes from each match to make our dataset.
-We have 861714 datapoints in our dataset ,  we need to make sure our training dataset has equal no. of completed and incomplete passes. So we select 173101 completed and Incomplete passes to form our training dataset.
+We use Statsbomb event data available at the [Statsbomb github repository](https://github.com/statsbomb/open-data) and collect the passes from each match to make our dataset.
+We have 861714 datapoints in our dataset, we need to make sure our training dataset has equal no. of completed and incomplete passes. So we select 173101 completed and Incomplete passes to form our training dataset.
 
 
 ### Data Exploration
