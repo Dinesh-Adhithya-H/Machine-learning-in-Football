@@ -7,7 +7,7 @@ Contributors: [Dinesh Adhithya](https://github.com/Dinesh-Adhithya-H) and [Sachi
 
 If you wish to reach out to us : [Dinesh Adhithya](mailto:hdinesh18@iiserb.ac.in) and [Sachin Mishra](mailto:sachin18@iiserb.ac.in)
 
-## Modelling pass difficulty in football matches using Machine Learning.
+## 1. Modelling pass difficulty in football matches using Machine Learning.
 
 
 ### Data Extraction and parsing
