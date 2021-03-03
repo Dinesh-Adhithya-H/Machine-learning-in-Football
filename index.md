@@ -53,11 +53,13 @@ The model was used on a few matches contested by FC Barcelona , The following pa
 [FCB VS REAL BETIS](https://github.com/Dinesh-Adhithya-H/sports-analytics/blob/master/fcb%20vs%20real%20betis.png)
 [FCB VS VILLAREAL](https://github.com/Dinesh-Adhithya-H/sports-analytics/blob/master/fcb%20vs%20villareal.png)
 
+
+[A plot of pass Hardness of passes involved during a possession from the match between FCB VS Granada](https://github.com/Dinesh-Adhithya-H/Machine-learning-in-Football/blob/main/possession.png)
+
 ### Observations
 
 The pass difficulty histogram falls exponentially with increasing pass hardness. Passes being the most common event during football matches these plots give us an idea how risk is optimised during football matches. Passes also goes on to be the most commom type of interaction among players. Our work ponders more deeply on how a closed group of humans interact with each other and the possible application of such ideas is also being explored upon.
 
-[kj](https://github.com/Dinesh-Adhithya-H/Machine-learning-in-Football/blob/gh-pages/Sample.html)
 
 
 
