@@ -5,7 +5,7 @@ Check out our [project](https://github.com/Dinesh-Adhithya-H/Machine-learning-in
 
 Contributors: [Dinesh Adhithya](https://github.com/Dinesh-Adhithya-H) and [Sachin Mishra](https://github.com/nihcaSInParis)
 
-If you wish to reach out to us : [Dinesh Adhithya]("mailto:hdinesh18@iiserb.ac.in") and [Sachin Mishra]("mailto:sachin18@iiserb.ac.in")
+If you wish to reach out to us : [Dinesh Adhithya](mailto:hdinesh18@iiserb.ac.in) and [Sachin Mishra](mailto:sachin18@iiserb.ac.in)
 
 ## Modelling pass difficulty in football matches using Machine Learning.
 
