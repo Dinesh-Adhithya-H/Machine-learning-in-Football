@@ -55,7 +55,7 @@ The model was used on a few matches contested by FC Barcelona , The following pa
 
 ### Observations
 
-The pass difficulty histogram falls exponentially with increasing pass hardness. Passes being the most common event during football matches this plots give us an idea how risk is optimised during football matches. Passes also goes on to be the most commom type of interaction among players. Our work ponders more deeply on how a closed group of humans interact with each other and the possible application of such ideas is also being explored upon.
+The pass difficulty histogram falls exponentially with increasing pass hardness. Passes being the most common event during football matches these plots give us an idea how risk is optimised during football matches. Passes also goes on to be the most commom type of interaction among players. Our work ponders more deeply on how a closed group of humans interact with each other and the possible application of such ideas is also being explored upon.
 
 
 
