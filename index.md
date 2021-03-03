@@ -1,6 +1,6 @@
 # Welcome !!
 
-We hope you find our work enjoyable and interesting , where our current interest lies on  using  Machine Learning techniques to model sports data.
+We hope you find our work enjoyable and interesting , where our current interest lies on using Machine Learning techniques to model sports event data.
 Check out our [project](https://github.com/Dinesh-Adhithya-H/Machine-learning-in-Football) .
 
 Contributors: [Dinesh Adhithya](https://github.com/Dinesh-Adhithya-H) and [Sachin Mishra](https://github.com/nihcaSInParis)
@@ -55,8 +55,7 @@ The model was used on a few matches contested by FC Barcelona , The following pa
 
 ### Observations
 
-The pass difficulty histogram falls exponentially with increasing difficulties. Passes being the most common event during football matches this plots give us an idea how risk is
-optimised during football matches. Our work ponders more deeply on how a closed group of humans interact with each other and possible application of such ideas is being explored upon.
+The pass difficulty histogram falls exponentially with increasing pass hardness. Passes being the most common event during football matches this plots give us an idea how risk is optimised during football matches. Passes also goes on to be the most commom type of interaction among players. Our work ponders more deeply on how a closed group of humans interact with each other and the possible application of such ideas is also being explored upon.
 
 
 
