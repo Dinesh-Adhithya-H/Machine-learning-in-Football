@@ -73,14 +73,34 @@ We make use of Statsbomb's open data and use ~ 13 k shots to model the probablit
 [shots dataset](https://github.com/Dinesh-Adhithya-H/Machine-learning-in-Football/blob/main/shots_exploration_1.png)
 [shot locations](https://github.com/Dinesh-Adhithya-H/Machine-learning-in-Football/blob/main/shots_histogram.png)
 [goal locations](https://github.com/Dinesh-Adhithya-H/Machine-learning-in-Football/blob/main/goals_histogram.png)
-<img src=https://github.com/Dinesh-Adhithya-H/Machine-learning-in-Football/blob/main/goals_histogram.png>
 
 ### Model selection
 
+The following features describing the shot were used :
+
+1. body part from which shot was taken from.
+2. technique used in the shot.
+3. no. of opponents in the triangle joning the 2 end points of goal post and shot position.
+4. no. of teammates	in the triangle joning the 2 end points of goal post and shot position.
+5. location of the shot
+6. angle the shot location makes with the 2 goal posts.
+7. distance from goal
+
+The best performing ML model was deep neural networks which performed at an accuracy of ~ 87 % on testing dataset.
+
+[shot distribution plot obtained from our model](https://github.com/Dinesh-Adhithya-H/Machine-learning-in-Football/blob/main/shot_distribution.png)
+
+
 ### Model Application
+
+The model was applied on the testing dataset and following Xg histogram for no. of shots vs Xg was obtained and compared to Statsbomb's Xg model.
+
+[Model prediction](https://github.com/Dinesh-Adhithya-H/Machine-learning-in-Football/blob/main/shots_histogram_model_vs_statsbomb.png)
+[Statsbomb's prediction](https://github.com/Dinesh-Adhithya-H/Machine-learning-in-Football/blob/main/shots_histogram_model_vs_statsbomb_1.png)
 
 ### Observations
 
+The histogram obtained by our model was in the shape of a bell curve , with maximum of the curve at an Xg of ~0.1 , whereas the statsbomb model's curve is an exponentially falling  curve whose maximum is at an Xg of 0.0. Intution suggests the curve obtained by our model makes more sense but unless a larger dataset is used for the same work we cant draw conclusions.
 
 
 
