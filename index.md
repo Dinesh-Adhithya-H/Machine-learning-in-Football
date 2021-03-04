@@ -60,7 +60,10 @@ The model was used on a few matches contested by FC Barcelona , The following pa
 
 The pass difficulty histogram falls exponentially with increasing pass hardness. Passes being the most common event during football matches these plots give us an idea how risk is optimised during football matches. Passes also goes on to be the most commom type of interaction among players. Our work ponders more deeply on how a closed group of humans interact with each other and the possible application of such ideas is also being explored upon.
 
+
+
 ## 2. Modelling Expected Goals of shots taken during football matches using Machine Learning.
+
 
 ### Data Extraction and parsing
 We make use of Statsbomb's open data and use ~ 13 k shots to model the probablity of a shot taken ending up as a goal.
@@ -70,6 +73,7 @@ We make use of Statsbomb's open data and use ~ 13 k shots to model the probablit
 [shots dataset](https://github.com/Dinesh-Adhithya-H/Machine-learning-in-Football/blob/main/shots_exploration_1.png)
 [shot locations](https://github.com/Dinesh-Adhithya-H/Machine-learning-in-Football/blob/main/shots_histogram.png)
 [goal locations](https://github.com/Dinesh-Adhithya-H/Machine-learning-in-Football/blob/main/goals_histogram.png)
+<img src=https://github.com/Dinesh-Adhithya-H/Machine-learning-in-Football/blob/main/goals_histogram.png>
 
 ### Model selection
 
