@@ -95,8 +95,8 @@ The best performing ML model was deep neural networks which performed at an accu
 
 The model was applied on the testing dataset and following Xg histogram for no. of shots vs Xg was obtained and compared to Statsbomb's Xg model.
 
-![Model prediction](https://github.com/Dinesh-Adhithya-H/Machine-learning-in-Football/blob/82e0d69445428cbb65ff2e4be910c12b4c6ae878/shots_histogram_model_vs_statsbomb.png)
-![Statsbomb's prediction](https://github.com/Dinesh-Adhithya-H/Machine-learning-in-Football/blob/main/shots_histogram_model_vs_statsbomb_1.png)
+[Model prediction](https://github.com/Dinesh-Adhithya-H/Machine-learning-in-Football/blob/82e0d69445428cbb65ff2e4be910c12b4c6ae878/shots_histogram_model_vs_statsbomb.png)
+[Statsbomb's prediction](https://github.com/Dinesh-Adhithya-H/Machine-learning-in-Football/blob/main/shots_histogram_model_vs_statsbomb_1.png)
 
 ### Observations
 
