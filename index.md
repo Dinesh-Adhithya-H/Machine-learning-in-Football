@@ -7,7 +7,7 @@ Contributors: [Dinesh Adhithya](https://github.com/Dinesh-Adhithya-H) and [Sachi
 
 If you wish to reach out to us : [Dinesh Adhithya](mailto:hdinesh18@iiserb.ac.in) and [Sachin Mishra](mailto:sachin18@iiserb.ac.in)
 
-## 1. Modelling pass difficulty in football matches using Machine Learning.
+## 1. Modelling pass difficulty/hardness in football matches.
 
 
 ### Data Extraction and parsing
@@ -101,6 +101,35 @@ The model was applied on the testing dataset and following Xg histogram for no. 
 ### Observations
 
 The histogram obtained by our model was in the shape of a bell curve , with maximum of the curve at an Xg of ~0.1 , whereas the statsbomb model's curve is an exponentially falling  curve whose maximum is at an Xg of 0.0. Intution suggests the curve obtained by our model makes more sense but unless a larger dataset is used for the same work we cant draw conclusions.
+
+## 3. Dribble Modelling 
+
+### Data Extraction and parsing
+We collected ~36k dribble event data from the Statsbomb open data.
+
+### Data Exploration
+
+[Dribble histogram](https://github.com/Dinesh-Adhithya-H/Machine-learning-in-Football/blob/main/dribble_hist.png)
+[Dribble attempted locations](https://github.com/Dinesh-Adhithya-H/Machine-learning-in-Football/blob/main/dribbles.png)
+[Dribble successful locations](https://github.com/Dinesh-Adhithya-H/Machine-learning-in-Football/blob/main/success_dribbles.png)
+[Proportion of successful dribbles](https://github.com/Dinesh-Adhithya-H/Machine-learning-in-Football/blob/main/prop_success_dribbles.png)
+
+### Model selection and Application
+
+The model predicts the probability of a successful dribble , called Xd and outputs to be predicted are set as 1 for complete dribble and 0 for incomplete dribble.
+The best performing model had an accuracy of ~60% on the testing datasets.
+
+Our model's [performance](https://github.com/Dinesh-Adhithya-H/Machine-learning-in-Football/blob/main/Xd.png) on testing dataset.
+
+### Observations
+
+Dribbles have a minimum Xd of 0.113 and maximum Xd of 0.83.  
+
+
+
+
+
+
 
 
 
