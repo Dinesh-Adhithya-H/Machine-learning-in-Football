@@ -139,6 +139,9 @@ The following features describing the shot were used :
 The best performing ML model was deep neural networks which performed at an accuracy of ~ 87 % on testing dataset.
 
 shot distribution plot obtained from our model:
+
+
+
 ![shot_distribution](https://user-images.githubusercontent.com/68704516/110153721-6ccb4b80-7e09-11eb-9124-f8901fc39b72.png)
 
 
