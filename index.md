@@ -219,6 +219,23 @@ These happen to most often events in possession leading to a shot
 
 [Statbomb's Xg Chain Model](https://statsbomb.com/2018/08/introducing-xgchain-and-xgbuildup/) has a primitive definition of Xg build up and our model gives weightage to difficulty of tasks performed leading to a shot.
 
+Statsbomb Model:
+
+1. Find all the possessions each player is involved in.
+2. Find all the shots within those possessions.
+3. Sum their xG (you might take the highest xG per possession, or you might treat the shots as dependent events, whatever floats your boat).
+4. Assign that sum to each player, however involved they were.
+
+Improved Model:
+
+1. Find all the possessions each player is involved in.
+2. Find all the shots within those possessions.
+3. Assign a contribution weight of each player that is a weighted sum of each player's contribution to that shot based on the Xp of all the passes and Xd of all the dribbles the player was involved in .
+4. Multiply the contribution weight with the XG and sum across all possessions the player was involved in.
+
+
+
+
 The proposed model calculates:
 
 
