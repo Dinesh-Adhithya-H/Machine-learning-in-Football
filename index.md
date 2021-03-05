@@ -137,19 +137,8 @@ These happen to most often events in possession leading to a shot
 
 [Statbomb's Xg Chain Model](https://statsbomb.com/2018/08/introducing-xgchain-and-xgbuildup/)
 
-```math
-E_{i}= \{\;be\;the\;set\;of\;events\;a\;player\;was\;involved\;in\; \}
-\\
-\\
-E_{i}=\{e_{i} |i\;in\;\{1,2,3....n\}\}
-\\
-\\
-e_{i}\in \{D,G,P\} 
-\\
-\\
-\sum_{i=1}^{i=n} p(e_{i})*X_{e_{i}}
-```
-$\sum$
+The proposed model calculates ![image](https://user-images.githubusercontent.com/68704516/110152762-21fd0400-7e08-11eb-9866-e57b236790c4.png)
+
 
 
 
