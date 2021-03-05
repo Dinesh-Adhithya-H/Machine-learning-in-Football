@@ -136,9 +136,11 @@ These happen to most often events in possession leading to a shot
 
 ## A Improved Xg Chain Model
 
-[Statbomb's Xg Chain Model](https://statsbomb.com/2018/08/introducing-xgchain-and-xgbuildup/)
+[Statbomb's Xg Chain Model](https://statsbomb.com/2018/08/introducing-xgchain-and-xgbuildup/) has a primitive definition of Xg build up and our model gives weightage to difficulty of tasks performed leading to a shot.
 
-The proposed model calculates ![render (3)](https://user-images.githubusercontent.com/68704516/110153181-b9faed80-7e08-11eb-89c1-dbaed3b7158c.png)
+The proposed model calculates:
+
+![render (3)](https://user-images.githubusercontent.com/68704516/110153181-b9faed80-7e08-11eb-89c1-dbaed3b7158c.png)
 
 
 
