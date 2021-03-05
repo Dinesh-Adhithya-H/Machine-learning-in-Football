@@ -1,0 +1,22 @@
+No.\;players\;are\;involved\;in\;the\;build\;up\;:\;l
+\\
+\\
+E_{i}= \{\;be\;the\;set\;of\;events\;a\;player\;was\;involved\;in\; \}
+\\
+\\
+E_{i}=\{e_{i}\;|\;i\;in\;\{1,2,3....n\}\}
+\\
+\\
+e_{i}\in \{D,P\} 
+\\
+\\
+Xg(s)\;:\;highest\;Xg\;of\;shots\;taken\;during\;a\;possession
+\\
+\\
+X_{e_{i}}\;:\;Xp \;or\;Xd
+\\
+\\
+p(e_{i})\;:\;probaility\;of\;event\;success\;be\;it\;a\;pass\;or\;dribble
+\\
+\\
+Xg\;Chain\;of\;a\;player= \frac{Xg(s)*\sum_{i=1}^{i=n} p(e_{i})*X_{e_{i}}}{\sum_{k=1}^{k=l}\sum_{i=1}^{i=n} p(e_{i})*X_{e_{i}}}
