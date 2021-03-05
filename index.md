@@ -1,3 +1,4 @@
+![render (3)](https://user-images.githubusercontent.com/68704516/110153134-a780b400-7e08-11eb-9629-3488c804ff48.png)
 # Welcome !!
 
 We hope you find our work enjoyable and interesting , where our current interest lies on using Machine Learning techniques to model sports event data.
@@ -137,7 +138,8 @@ These happen to most often events in possession leading to a shot
 
 [Statbomb's Xg Chain Model](https://statsbomb.com/2018/08/introducing-xgchain-and-xgbuildup/)
 
-The proposed model calculates ![image](https://user-images.githubusercontent.com/68704516/110152762-21fd0400-7e08-11eb-9866-e57b236790c4.png)
+The proposed model calculates ![render (3)](https://user-images.githubusercontent.com/68704516/110153181-b9faed80-7e08-11eb-89c1-dbaed3b7158c.png)
+
 
 
 
