@@ -73,7 +73,10 @@ FCB VS REAL BETIS:
 FCB VS VILLAREAL:
 ![fcb vs villareal](https://user-images.githubusercontent.com/68704516/110153709-69d05b00-7e09-11eb-999c-dcc458f3011e.png)
 
+
+
 A plot of pass Hardness of passes involved during a possession from the match between FCB VS Granada:
+
 ![possession](https://user-images.githubusercontent.com/68704516/110153715-6b018800-7e09-11eb-944e-91557574bd56.png)
 
 
@@ -91,9 +94,15 @@ We make use of Statsbomb's open data and use ~ 13 k shots to model the probablit
 
 ### Data Exploration
 
-[shots dataset](https://github.com/Dinesh-Adhithya-H/Machine-learning-in-Football/blob/main/shots_exploration_1.png)
-[shot locations](https://github.com/Dinesh-Adhithya-H/Machine-learning-in-Football/blob/main/shots_histogram.png)
-[goal locations](https://github.com/Dinesh-Adhithya-H/Machine-learning-in-Football/blob/main/goals_histogram.png)
+shots dataset:
+![shots_exploration_1](https://user-images.githubusercontent.com/68704516/110153725-6d63e200-7e09-11eb-84d6-f66c85e294cf.png)
+
+shot locations:
+![shots_histogram](https://user-images.githubusercontent.com/68704516/110153726-6e950f00-7e09-11eb-87e2-6631442608f1.png)
+
+goal locations:
+![goals_histogram](https://user-images.githubusercontent.com/68704516/110153710-6a68f180-7e09-11eb-96ef-daa21032271a.png)
+
 
 ### Model selection
 
@@ -109,38 +118,56 @@ The following features describing the shot were used :
 
 The best performing ML model was deep neural networks which performed at an accuracy of ~ 87 % on testing dataset.
 
-[shot distribution plot obtained from our model](https://github.com/Dinesh-Adhithya-H/Machine-learning-in-Football/blob/main/sh
+shot distribution plot obtained from our model:
+![shot_distribution](https://user-images.githubusercontent.com/68704516/110153721-6ccb4b80-7e09-11eb-9124-f8901fc39b72.png)
 
 
 ### Model Application
 
 The model was applied on the testing dataset and following Xg histogram for no. of shots vs Xg was obtained and compared to Statsbomb's Xg model.
 
-[Model prediction](https://github.com/Dinesh-Adhithya-H/Machine-learning-in-Football/blob/82e0d69445428cbb65ff2e4be910c12b4c6ae878/shots_histogram_model_vs_statsbomb.png)
-[Statsbomb's prediction](https://github.com/Dinesh-Adhithya-H/Machine-learning-in-Football/blob/main/shots_histogram_model_vs_statsbomb_1.png)
+Model prediction:
+![shots_histogram_model_vs_statsbomb](https://user-images.githubusercontent.com/68704516/110153729-6e950f00-7e09-11eb-90c2-0323059ff5cf.png)
+
+Statsbomb's prediction:
+![shots_histogram_model_vs_statsbomb_1](https://user-images.githubusercontent.com/68704516/110153731-6f2da580-7e09-11eb-90b3-afd9cbe66e4d.png)
+
 
 ### Observations
 
 The histogram obtained by our model was in the shape of a bell curve , with maximum of the curve at an Xg of ~0.1 , whereas the statsbomb model's curve is an exponentially falling  curve whose maximum is at an Xg of 0.0. Intution suggests the curve obtained by our model makes more sense but unless a larger dataset is used for the same work we cant draw conclusions.
 
+
 ## 3. Dribble Modelling 
 
+
 ### Data Extraction and parsing
+
 We collected ~36k dribble event data from the Statsbomb open data.
 
 ### Data Exploration
 
-[Dribble histogram](https://github.com/Dinesh-Adhithya-H/Machine-learning-in-Football/blob/main/dribble_hist.png)
-[Dribble attempted locations](https://github.com/Dinesh-Adhithya-H/Machine-learning-in-Football/blob/main/dribbles.png)
-[Dribble successful locations](https://github.com/Dinesh-Adhithya-H/Machine-learning-in-Football/blob/main/success_dribbles.png)
-[Proportion of successful dribbles](https://github.com/Dinesh-Adhithya-H/Machine-learning-in-Football/blob/main/prop_success_dribbles.png)
+Dribble histogram:
+![dribble_hist](https://user-images.githubusercontent.com/68704516/110153687-663cd400-7e09-11eb-985c-f16ab261ab32.png)
+
+Dribble attempted locations:
+![dribbles](https://user-images.githubusercontent.com/68704516/110153690-676e0100-7e09-11eb-8823-51b7c317c36a.png)
+
+Dribble successful locations:
+![success_dribbles](https://user-images.githubusercontent.com/68704516/110153732-6f2da580-7e09-11eb-9de3-e7e9b42c39cc.png)
+
+Proportion of successful dribbles:
+![prop_success_dribbles](https://user-images.githubusercontent.com/68704516/110153720-6c32b500-7e09-11eb-960b-e4d2f4a9178a.png)
+
 
 ### Model selection and Application
 
 The model predicts the probability of a successful dribble , called Xd and outputs to be predicted are set as 1 for complete dribble and 0 for incomplete dribble.
 The best performing model had an accuracy of ~60% on the testing datasets.
 
-Our model's [performance](https://github.com/Dinesh-Adhithya-H/Machine-learning-in-Football/blob/main/Xd.png) on testing dataset.
+Our model's performance on testing dataset:
+![Xd](https://user-images.githubusercontent.com/68704516/110153733-6fc63c00-7e09-11eb-8223-1300741b4d94.png)
+
 
 ### Observations
 
@@ -159,21 +186,7 @@ These happen to most often events in possession leading to a shot
 [Statbomb's Xg Chain Model](https://statsbomb.com/2018/08/introducing-xgchain-and-xgbuildup/) has a primitive definition of Xg build up and our model gives weightage to difficulty of tasks performed leading to a shot.
 
 The proposed model calculates:
-
 ![render (3)](https://user-images.githubusercontent.com/68704516/110153181-b9faed80-7e08-11eb-89c1-dbaed3b7158c.png)
-![dribble_hist](https://user-images.githubusercontent.com/68704516/110153687-663cd400-7e09-11eb-985c-f16ab261ab32.png)
-![dribbles](https://user-images.githubusercontent.com/68704516/110153690-676e0100-7e09-11eb-8823-51b7c317c36a.png)
-
-![goals_histogram](https://user-images.githubusercontent.com/68704516/110153710-6a68f180-7e09-11eb-96ef-daa21032271a.png)
-![prop_success_dribbles](https://user-images.githubusercontent.com/68704516/110153720-6c32b500-7e09-11eb-960b-e4d2f4a9178a.png)
-![shot_distribution](https://user-images.githubusercontent.com/68704516/110153721-6ccb4b80-7e09-11eb-9124-f8901fc39b72.png)
-![shots_exploration](https://user-images.githubusercontent.com/68704516/110153724-6d63e200-7e09-11eb-8f74-afcdb481975d.png)
-![shots_exploration_1](https://user-images.githubusercontent.com/68704516/110153725-6d63e200-7e09-11eb-84d6-f66c85e294cf.png)
-![shots_histogram](https://user-images.githubusercontent.com/68704516/110153726-6e950f00-7e09-11eb-87e2-6631442608f1.png)
-![shots_histogram_model_vs_statsbomb](https://user-images.githubusercontent.com/68704516/110153729-6e950f00-7e09-11eb-90c2-0323059ff5cf.png)
-![shots_histogram_model_vs_statsbomb_1](https://user-images.githubusercontent.com/68704516/110153731-6f2da580-7e09-11eb-90b3-afd9cbe66e4d.png)
-![success_dribbles](https://user-images.githubusercontent.com/68704516/110153732-6f2da580-7e09-11eb-9de3-e7e9b42c39cc.png)
-![Xd](https://user-images.githubusercontent.com/68704516/110153733-6fc63c00-7e09-11eb-8223-1300741b4d94.png)
 
 
 
