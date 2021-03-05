@@ -125,6 +125,19 @@ Our model's [performance](https://github.com/Dinesh-Adhithya-H/Machine-learning-
 
 Dribbles have a minimum Xd of 0.113 and maximum Xd of 0.83.  
 
+## Weightage to each event.
+
+1. Avg. success rate of a dribble : 0.618
+2. Avg. success rate of a pass : 0.797
+3. Avg. success rate of a shot : 0.119
+
+These happen to most often events in possession leading to a shot
+
+## A Improved Xg Chain Model
+
+[Statbomb's Xg Chain Model](https://statsbomb.com/2018/08/introducing-xgchain-and-xgbuildup/)
+
+\sum_{i=1}^{i=n} p(E)*X_{E}
 
 
 
