@@ -222,10 +222,10 @@ Dribbles have a minimum Xd of 0.113 and maximum Xd of 0.83.
 ## Events
 The darker the color gets the harder that particular event (pass,dribbles,shots)
 
-1.Passes->Red
-2.Carry->Blue
-3.Dribble->Green
-4.Shots from possessions->Yellow
+1.Passes -> Red
+2.Carry -> Blue
+3.Dribble -> Green
+4.Shots from possessions -> Yellow
 
 ## Madrid's events during possession 
 ![el_clasico_madrid](https://user-images.githubusercontent.com/68704516/112881593-83538280-90e9-11eb-90ec-d0d6ac078c36.png)
