@@ -216,38 +216,21 @@ Dribbles have a minimum Xd of 0.113 and maximum Xd of 0.83.
 2. Avg. success rate of a pass : 0.797
 3. Avg. success rate of a shot : 0.119
 
-These happen to most often events in possession leading to a shot
 
-## A Improved Xg Chain Model
+# Model application on real match data between Real Madrid CF vs FC Barcelona on 2016-12-03
 
-[Statbomb's Xg Chain Model](https://statsbomb.com/2018/08/introducing-xgchain-and-xgbuildup/) has a primitive definition of Xg build up and our model gives weightage to difficulty of tasks performed leading to a shot.
+## Events
+The darker the color gets the harder that particular event (pass,dribbles,shots)
 
-Statsbomb Model:
+1.Passes->Red
+2.Carry->Blue
+3.Dribble->Green
+4.Shots from possessions->Yellow
 
-1. Find all the possessions each player is involved in.
-2. Find all the shots within those possessions.
-3. Sum their xG (you might take the highest xG per possession, or you might treat the shots as dependent events, whatever floats your boat).
-4. Assign that sum to each player, however involved they were.
+## Madrid's events during possession 
+![el_clasico_madrid](https://user-images.githubusercontent.com/68704516/112881593-83538280-90e9-11eb-90ec-d0d6ac078c36.png)
 
-Improved Model:
-
-1. Find all the possessions each player is involved in.
-2. Find all the shots within those possessions.
-3. Assign a contribution weight of each player that is a weighted sum of each player's contribution to that shot based on the Xp of all the passes and Xd of all the dribbles the player was involved in .
-4. Multiply the contribution weight with the XG and sum across all possessions the player was involved in.
-
-
-
-
-The proposed model calculates:
-
-
-
-
-![render (4)](https://user-images.githubusercontent.com/68704516/110156082-891cb780-7e0c-11eb-94f4-26068b896f34.png)
-
-
-
-
+## Barcelona's events during possession
+![el_clasico_barca](https://user-images.githubusercontent.com/68704516/112881723-a847f580-90e9-11eb-8304-297d460ce635.png)
 
 
