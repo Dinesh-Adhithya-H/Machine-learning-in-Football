@@ -233,4 +233,6 @@ The darker the color gets the harder that particular event (pass,dribbles,shots)
 ## Barcelona's events during possession
 ![el_clasico_barca](https://user-images.githubusercontent.com/68704516/112881723-a847f580-90e9-11eb-8304-297d460ce635.png)
 
+## Conclusion
 
+Inspite of performing harder passes and dribbles FCB ended with a draw , but clearly from our plots we could see which team had the better performance.
