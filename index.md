@@ -260,5 +260,5 @@ The followimg features describing players was used :
 Only players who registered more than 2000 minutes were selected for the clustering process.
 
 ![minutes vs no](https://user-images.githubusercontent.com/68704516/113095000-5352cf00-9210-11eb-8e73-66f3b8d889d3.png)
-![player_clustering](https://user-images.githubusercontent.com/68704516/113095008-55b52900-9210-11eb-9eae-254509162ea0.png)
+![player_clustering](https://user-images.githubusercontent.com/68704516/113134678-beb39580-923e-11eb-9e42-60e5bfbd2f0d.png)
 
