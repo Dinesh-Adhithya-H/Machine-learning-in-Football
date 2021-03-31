@@ -195,7 +195,7 @@ Proportion of successful dribbles:
 ![prop_success_dribbles](https://user-images.githubusercontent.com/68704516/110153720-6c32b500-7e09-11eb-960b-e4d2f4a9178a.png)
 
 
-### Model selection and Application
+###  Model selection and Application
 
 The model predicts the probability of a successful dribble , called Xd and outputs to be predicted are set as 1 for complete dribble and 0 for incomplete dribble.
 The best performing model had an accuracy of ~60% on the testing datasets.
@@ -210,16 +210,16 @@ Our model's performance on testing dataset:
 
 Dribbles have a minimum Xd of 0.113 and maximum Xd of 0.83.  
 
-## Weightage to each event.
+### Weightage to each event.
 
 1. Avg. success rate of a dribble : 0.618
 2. Avg. success rate of a pass : 0.797
 3. Avg. success rate of a shot : 0.119
 
 
-# Model application on real match data between Real Madrid CF vs FC Barcelona on 2016-12-03
+## 4. Model application on real match data between Real Madrid CF vs FC Barcelona on 2016-12-03
 
-## Events
+### Events
 The darker the color gets the harder that particular event (pass,dribbles,shots)
 
 1. Passes -> Red
@@ -227,12 +227,38 @@ The darker the color gets the harder that particular event (pass,dribbles,shots)
 3. Dribble -> Green
 4. Shots from possessions -> Yellow
 
-## Madrid's events during possession 
+### Madrid's events during possession 
 ![el_clasico_madrid](https://user-images.githubusercontent.com/68704516/112881593-83538280-90e9-11eb-90ec-d0d6ac078c36.png)
 
-## Barcelona's events during possession
+### Barcelona's events during possession
 ![el_clasico_barca](https://user-images.githubusercontent.com/68704516/112881723-a847f580-90e9-11eb-8304-297d460ce635.png)
 
-## Conclusion
+### Conclusion
 
 Inspite of performing harder passes and dribbles FCB ended with a draw , but clearly from our plots we could see which team had the better performance.
+
+## 5. Clustering of football players
+
+The data is taken from understat , and has player data of the top 5 leagues from 19/20 season. Methods such as Principal Component Analysis and k-means clustering were employed .
+
+The followimg features describing players was used :
+
+1. goals	
+2. xG	
+3. assists	
+4. xA	
+5. shots	
+6. key_passes	
+7. yellow_cards	
+8. red_cards	
+9. position	
+10. npg	
+11. npxG	
+12. xGChain	
+13. xGBuildup
+
+Only players who registered more than 2000 minutes were selected for the clustering process.
+
+![minutes vs no](https://user-images.githubusercontent.com/68704516/113095000-5352cf00-9210-11eb-8e73-66f3b8d889d3.png)
+![player_clustering](https://user-images.githubusercontent.com/68704516/113095008-55b52900-9210-11eb-9eae-254509162ea0.png)
+
